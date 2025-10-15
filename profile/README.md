@@ -1,14 +1,9 @@
 # 🌌 **Asterium — Plataforma Full-Stack sobre Astronomía**
 
-
 Asterium es una **plataforma full-stack** dedicada a la astronomía, el cosmos y la ciencia del universo.  
 Combina **un blog interactivo** (frontend) y **una API REST profesional** (backend) para gestionar artículos, descubrimientos astronómicos, usuarios y contenido visual.
 
-
 El objetivo del proyecto es **hacer que la astronomía sea accesible, inspiradora y visualmente atractiva**, integrando diseño, tecnología y comunidad.
-
-
-
 
 ## 🧭 **Índice**
 1. [Visión general](#-visión-general)
@@ -17,11 +12,7 @@ El objetivo del proyecto es **hacer que la astronomía sea accesible, inspirador
 4. [Equipo de desarrollo](#-equipo-de-desarrollo)
 5. [Notas finales](#-notas-finales)
 
-
-
-
 ## 🚀 **Visión general**
-
 
 **Frontend:** React + Vite + TailwindCSS  
 **Backend:** Node.js + Express + TypeScript + Sequelize + MySQL  
@@ -29,30 +20,19 @@ El objetivo del proyecto es **hacer que la astronomía sea accesible, inspirador
 **Testing:** Jest · Supertest  
 **Validación:** Zod  
 
-
-
-
 ## 🌠 **Frontend — Blog Interactivo**
 
-
-![](./img/homepage.png)
-
+<img width="1920" height="1713" alt="homepage" src="https://github.com/user-attachments/assets/32747c7f-c291-4779-9936-2e3ef2d7c815" />
 
 El frontend de **Asterium** permite a los usuarios:
-
 
 - 🪐 Leer artículos sobre planetas, galaxias y descubrimientos  
 - ✍️ Crear y publicar sus propias entradas
 - 👤 Gestionar su perfil y actividad  
 
-
 El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelares, transiciones suaves y tipografía moderna.
 
-
-
-
 ### 🧭 **User Journey**
-
 
 1. **Página principal:** flujo de artículos y secciones temáticas  
 2. **Registro / Inicio de sesión:** autenticación mediante formulario  
@@ -60,15 +40,11 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
 4. **Crear artículo:** editor con soporte Markdown  
 5. **Ver artículo:** página limpia con contenido y comentarios
 
-
 ### 🎨 **Prototipo en Figma**
-
 
 [🎨 Ver diseño en Figma](https://www.figma.com/design/kofeymVilSP9jyQ7k8P2Wx/Asterium?node-id=17-2&t=BqSRzoE0jWOoDuy3-1)
 
-
 ### ⚙️ **Tecnologías (Frontend)**
-
 
 | Categoría | Tecnologías |
 |------------|--------------|
@@ -80,9 +56,7 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
 | Estado global | Context API / Store |
 | Validación | Custom Validators |
 
-
 ### 📁 **Estructura del Proyecto (Frontend)**
-
 
 ```bash
 /client  
@@ -102,71 +76,47 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
 git clone https://github.com/Asterium360/Aster-Client.git
 cd client
 
-
 # 2. Instalar dependencias
 npm install
-
 
 # 3. Ejecutar el proyecto
 npm run dev
 ```
 **🛰️ Frontend disponible en → http://localhost:5173**
 
-
 ## **🌌 Backend — API REST Asterium Server**
-
 
 Node.js · Express · TypeScript · Sequelize · MySQL · Cloudinary · JWT
 
-
 **Asterium Server** es una API REST moderna y escalable para gestionar descubrimientos astronómicos con autenticación, roles y carga de imágenes.
-
 
 ### **🧱 Características principales**
 
-
 * 🔐 Registro y autenticación de usuarios (roles: admin y user)
-
 
 * 🧩 CRUD completo de descubrimientos astronómicos
 
-
 * ☁️ Carga flexible de imágenes (archivo o URL) con Cloudinary
-
 
 * 🧠 Validación robusta con Zod
 
-
 * 🧱 ORM Sequelize conectado a MySQL
-
 
 * 🛡️ Middlewares personalizados para autenticación, validación y seguridad
 
-
 * 🧪 Pruebas unitarias con Jest y Supertest
 
-
----
-
-
 ### **🧭 Roles y permisos**
-
 
 | Rol | Listar | Ver detalle | Crear | Editar | Eliminar |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | 🧍‍♀️ Usuario | ✅ | ✅ | ✅ | ✅ (solo sus descubrimientos) | ✅ (solo sus descubrimientos) |
 | 🛡️ Admin | ✅ | ✅ | ✅ | ✅ (todos) | ✅ (todos) |
 
-
 🔒 Solo los usuarios autenticados pueden crear, editar o eliminar.  
- 👑 Los administradores tienen control total sobre todos los registros.
-
-
----
-
+👑 Los administradores tienen control total sobre todos los registros.
 
 ### **⚙️ Tecnologías utilizadas (Backend)**
-
 
 | Categoría | Tecnologías |
 | ----- | ----- |
@@ -179,12 +129,7 @@ Node.js · Express · TypeScript · Sequelize · MySQL · Cloudinary · JWT
 | Testing | Jest · Supertest |
 | Documentación | Postman |
 
-
----
-
-
 ### **📂 Estructura del Proyecto (Backend)**
-
 
 `src/`  
  `├── config/               # Configuración de Cloudinary`  
@@ -199,20 +144,14 @@ Node.js · Express · TypeScript · Sequelize · MySQL · Cloudinary · JWT
  `├── app.ts                # Configuración Express`  
  `└── index.ts              # Punto de entrada`
 
-
----
-
-
 ### **⚡ Instalación y ejecución (Backend)**
 ```bash
 # 1. Clonar el repositorio  
 git clone https://github.com/Asterium360/Aster-Server.git  
 cd Aster-Server`
 
-
 # 2. Instalar dependencias  
 npm install`
-
 
 # 3. Configurar variables de entorno  
 # Crea el archivo .env:  
@@ -224,35 +163,25 @@ DB_PORT=3306
 JWT_SECRET=tu_token_secreto  
 PORT=4000
 
-
 # 4. Ejecutar en modo desarrollo  
 npm run dev
 ```
 
-
 🌍 Servidor disponible en → [http://localhost:4000](http://localhost:4000)
-
 
 ### **☁️ Cloudinary Integration**
 
-
 * Imágenes gestionadas con **Multer \+ CloudinaryStorage**
-
 
 * Carpeta automática: `Asterium_Discoveries`
 
-
 * Se aceptan archivos locales o URLs externas
-
 
 `const image_url = req.file?.path || body.image_url || null;`
 
-
 ### **🔐 Endpoints principales**
 
-
 #### **🪐 Autenticación `/auth`**
-
 
 | Método | Endpoint | Descripción | Auth |
 | ----- | ----- | ----- | ----- |
@@ -260,9 +189,7 @@ npm run dev
 | POST | /auth/login | Iniciar sesión (JWT) | ❌ |
 | PUT | /auth/promote/:id | Promover usuario a admin | ✅ Solo admin |
 
-
 #### **🌠 Descubrimientos `/asterium`**
-
 
 | Método | Endpoint | Descripción | Auth |
 | ----- | ----- | ----- | ----- |
@@ -272,9 +199,7 @@ npm run dev
 | PUT | /asterium/:id | Editar propio o admin | ✅ user/admin |
 | DELETE | /asterium/:id | Eliminar propio o admin | ✅ user/admin |
 
-
 ### **🧪 Testing**
-
 
 | Archivo | Propósito |
 | ----- | ----- |
@@ -283,24 +208,17 @@ npm run dev
 | `auth.ts` | Middleware de autenticación |
 | `checkRole.ts` | Middleware de permisos |
 
-
 Ejecutar pruebas:
-
 
 `npm test`
 
-
 ### **📘 Documentación Postman**
-
 
 [📗 Ver colección completa en Postman](https://maryori-5224626.postman.co/workspace/Maryori%27s-Workspace~b4629cfb-3575-450f-84c7-237828081b35/collection/46421564-d0aae761-6651-474b-85ff-af970d5c081d)
 
-
 Incluye todos los endpoints, ejemplos funcionales y tokens de prueba.
 
-
 ## **👩‍💻 Equipo de Desarrollo**
-
 
 | Nombre | Rol | GitHub | LinkedIn |
 | ----- | ----- | ----- | ----- |
@@ -310,7 +228,6 @@ Incluye todos los endpoints, ejemplos funcionales y tokens de prueba.
 | **Maryori Cruz** | Backend Developer | [GitHub](https://github.com/MaryoriCruz) | [LinkedIn](https://www.linkedin.com/in/maryori-cruz-6b440116b/) |
 | **Sofía Reyes** | Backend Developer | [GitHub](https://github.com/Sofiareyes12) | [LinkedIn](https://www.linkedin.com/in/sofiareyes12/) |
 
-
 Proyecto desarrollado en **Factoría F5 – Bootcamp FullStack & DevOps**.  
- Diseñado aplicando **buenas prácticas de arquitectura, seguridad y documentación profesional**.
+Diseñado aplicando **buenas prácticas de arquitectura, seguridad y documentación profesional**.
 
