@@ -53,7 +53,7 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
 | Navegación | React Router |
 | API | Axios |
 | Renderizado | Markdown |
-| Estado global | Context API / Store |
+| Estado global | Zustand |
 | Validación | Custom Validators |
 
 ### 📁 **Estructura del proyecto (Frontend)**
@@ -68,13 +68,12 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
   │   ├── services/         # conexión con API  
   │   ├── store/            # estado global  
   │   ├── validators/       # validaciones  
-  │   └── main.tsx
+  │   └── main.jsx
 ```
 ### **⚡ Instalación y ejecución (Frontend)
 ```bash
 # 1. Clonar el repositorio
 git clone https://github.com/Asterium360/Aster-Client.git
-cd client
 
 # 2. Instalar dependencias
 npm install
@@ -131,24 +130,25 @@ Node.js · Express · TypeScript · Sequelize · MySQL · Cloudinary · JWT
 
 ### **📂 Estructura del proyecto (Backend)**
 
-`src/`  
- `├── config/               # Configuración de Cloudinary`  
- `├── controllers/          # Lógica de negocio (Asterium, Auth, Users)`  
- `├── middlewares/          # Auth, roles, validaciones`  
- `├── models/               # Modelos Sequelize`  
- `├── routes/               # Definición de endpoints`  
- `├── schemas/              # Validaciones Zod`  
- `├── seeders/              # Datos iniciales`  
- `├── tests/                # Pruebas unitarias`  
- `├── db.ts                 # Conexión MySQL`  
- `├── app.ts                # Configuración Express`  
- `└── index.ts              # Punto de entrada`
+```bash  
+├── config/               # Configuración de Cloudinary`  
+├── controllers/          # Lógica de negocio (Asterium, Auth, Users)`  
+├── middlewares/          # Auth, roles, validaciones`  
+├── models/               # Modelos Sequelize`  
+├── routes/               # Definición de endpoints`  
+├── schemas/              # Validaciones Zod`  
+├── seeders/              # Datos iniciales`  
+├── tests/                # Pruebas unitarias`  
+├── db.ts                 # Conexión MySQL`  
+├── app.ts                # Configuración Express`  
+└── index.ts              # Punto de entrada`
+```
 
 ### **⚡ Instalación y ejecución (Backend)**
 ```bash
 # 1. Clonar el repositorio  
 git clone https://github.com/Asterium360/Aster-Server.git  
-cd Aster-Server`
+cd server`
 
 # 2. Instalar dependencias  
 npm install`
