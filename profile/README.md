@@ -1,4 +1,4 @@
-# 🌌 **Asterium: proyecto fullstack sobre Astronomía**
+# 🌌 **Asterium: proyecto fullstack sobre astronomía**
 
 Asterium es una **plataforma full-stack** dedicada a la astronomía, el cosmos y la ciencia del universo.  
 Combina **un blog interactivo** (frontend) y **una API REST profesional** (backend) para gestionar artículos, descubrimientos astronómicos, usuarios y contenido visual.
