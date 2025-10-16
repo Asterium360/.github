@@ -222,11 +222,11 @@ Incluye todos los endpoints, ejemplos funcionales y tokens de prueba.
 
 | Nombre | Rol | GitHub | LinkedIn |
 | ----- | ----- | ----- | ----- |
-| **Michelle Gelves** | Project Lead, Frontend Developer | [GitHub](https://github.com/MichelleGel) | [LinkedIn](https://www.linkedin.com/in/michelle-gelves/) |
-| **Larysa Ambartsumian** | Scrum Master, UI Designer, Frontend Developer | [GitHub](https://github.com/ambalari) | [LinkedIn](https://www.linkedin.com/in/larysa-ambartsumian/) |
-| **Anngie Pereira** | Fullstack Developer | [GitHub](https://github.com/angiepereir) | [LinkedIn](https://www.linkedin.com/in/anngy-pereira-094aa026a/) |
-| **Maryori Cruz** | Backend Developer | [GitHub](https://github.com/MaryoriCruz) | [LinkedIn](https://www.linkedin.com/in/maryori-cruz-6b440116b/) |
-| **Sofía Reyes** | Backend Developer | [GitHub](https://github.com/Sofiareyes12) | [LinkedIn](https://www.linkedin.com/in/sofiareyes12/) |
+| **Anngie** | Project Lead, Fullstack Developer | [link](https://github.com/angiepereir) | [link](https://www.linkedin.com/in/anngy-pereira-094aa026a/) |
+| **Larysa** | Scrum Master, UI designer, Frontend Developer   | [link](https://github.com/ambalari) | [link](https://www.linkedin.com/in/larysa-ambartsumian/) |
+| **Michelle**  | Frontend Developer | [link](https://github.com/MichelleGel) | [link](https://www.linkedin.com/in/michelle-gelves/) |
+| **Maryori** | Backend Developer | [link](https://github.com/MaryoriCruz) | [link](https://www.linkedin.com/in/maryori-cruz-6b440116b/)  |
+| **Sofia**  | Backend Developer | [link](https://github.com/Sofiareyes12) | [link](https://www.linkedin.com/in/sofiareyes12/) |
 
 Proyecto desarrollado en **Factoría F5 – Bootcamp FullStack & DevOps**.  
 Diseñado aplicando **buenas prácticas de arquitectura, seguridad y documentación profesional**.
