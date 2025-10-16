@@ -1,6 +1,6 @@
 # 🌌 **Asterium: proyecto fullstack sobre astronomía**
 
-Asterium es una **plataforma full-stack** dedicada a la astronomía, el cosmos y la ciencia del universo.  
+Asterium es una **plataforma fullstack** dedicada a la astronomía, el cosmos y la ciencia del universo.  
 Combina **un blog interactivo** (frontend) y **una API REST profesional** (backend) para gestionar artículos, descubrimientos astronómicos, usuarios y contenido visual.
 
 El objetivo del proyecto es **hacer que la astronomía sea accesible, inspiradora y visualmente atractiva**, integrando diseño, tecnología y comunidad.
@@ -20,7 +20,7 @@ El objetivo del proyecto es **hacer que la astronomía sea accesible, inspirador
 **Testing:** Jest · Supertest  
 **Validación:** Zod  
 
-## 🌠 **Frontend — Blog Interactivo**
+## 🌠 **Frontend — Blog interactivo**
 
 <img width="1920" height="1713" alt="homepage" src="https://github.com/user-attachments/assets/32747c7f-c291-4779-9936-2e3ef2d7c815" />
 
@@ -56,7 +56,7 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
 | Estado global | Context API / Store |
 | Validación | Custom Validators |
 
-### 📁 **Estructura del Proyecto (Frontend)**
+### 📁 **Estructura del proyecto (Frontend)**
 
 ```bash
 /client  
@@ -70,7 +70,7 @@ El diseño está inspirado en el cielo nocturno: tonos oscuros, detalles estelar
   │   ├── validators/       # validaciones  
   │   └── main.tsx
 ```
-### **⚡ Instalación y Ejecución (Frontend)
+### **⚡ Instalación y ejecución (Frontend)
 ```bash
 # 1. Clonar el repositorio
 git clone https://github.com/Asterium360/Aster-Client.git
@@ -129,7 +129,7 @@ Node.js · Express · TypeScript · Sequelize · MySQL · Cloudinary · JWT
 | Testing | Jest · Supertest |
 | Documentación | Postman |
 
-### **📂 Estructura del Proyecto (Backend)**
+### **📂 Estructura del proyecto (Backend)**
 
 `src/`  
  `├── config/               # Configuración de Cloudinary`  
@@ -169,7 +169,7 @@ npm run dev
 
 🌍 Servidor disponible en → [http://localhost:4000](http://localhost:4000)
 
-### **☁️ Cloudinary Integration**
+### **☁️ Cloudinary integration**
 
 * Imágenes gestionadas con **Multer \+ CloudinaryStorage**
 
@@ -218,7 +218,7 @@ Ejecutar pruebas:
 
 Incluye todos los endpoints, ejemplos funcionales y tokens de prueba.
 
-## **👩‍💻 Equipo de Desarrollo**
+## **👩‍💻 Equipo de desarrollo**
 
 | Nombre | Rol | GitHub | LinkedIn |
 | ----- | ----- | ----- | ----- |
